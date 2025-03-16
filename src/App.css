@@ -1,0 +1,158 @@
+/* Global Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background-color: #f9f9f9;
+  }
+  
+  /* Header */
+  .header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  /* Main Container */
+  .container {
+    max-width: 600px;
+    margin: 30px auto; /* More space around container */
+    padding: 30px;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Video Section */
+  .video-section {
+    margin-bottom: 30px; /* More space below the video */
+  }
+  
+  .video-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  /* Responsive Video */
+  .video-frame {
+    width: 100%;
+    height: 320px;
+    border: none;
+    border-radius: 8px;
+  }
+  
+  /* Input & Button Section */
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 20px; /* Increased spacing */
+  }
+  
+  .input-field {
+    width: 100%;
+    max-width: 450px; /* Wider input fields */
+    padding: 14px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 18px;
+  }
+  
+  /* Buttons */
+  .button {
+    width: 100%;
+    max-width: 450px;
+    padding: 14px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 6px;
+    margin-top: 10px; /* Extra space above buttons */
+  }
+  
+  .button.blue {
+    background-color: #007bff;
+  }
+  
+  .button.green {
+    background-color: #28a745;
+  }
+  
+  .button.red {
+    background-color: red;
+  }
+  
+  .button:hover {
+    opacity: 0.8;
+  }
+  
+  /* Comments Section */
+  .comments-section {
+    margin-top: 30px;
+  }
+  
+  .comment-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f3f3f3;
+    padding: 12px;
+    border-radius: 6px;
+    margin-bottom: 15px; /* More space between comments */
+  }
+  
+  .comment-text {
+    flex: 1;
+    text-align: left;
+    font-size: 16px;
+  }
+  
+  .button.red {
+    padding: 10px 14px;
+    font-size: 16px;
+    max-width: 120px;
+    margin-left: 15px; /* More spacing between delete button and text */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    .header {
+      font-size: 22px;
+    }
+  
+    .video-title {
+      font-size: 20px;
+    }
+  
+    .video-frame {
+      height: 270px;
+    }
+  
+    .input-container {
+      gap: 15px; /* More space on mobile */
+    }
+  
+    .input-field,
+    .button {
+      width: 95%;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .button {
+      width: auto;
+    }
+  }
+  
