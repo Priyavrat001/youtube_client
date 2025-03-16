@@ -1,1 +1,1 @@
-export const server = "https://youtube-server-ek82.onrender.com"
+export const server = "https://youtube-server-ek82.onrender.com/api/v1/youtube"
